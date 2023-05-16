@@ -1,6 +1,5 @@
-let age: number = 20
+let sales = 123_456_789 // Typescript comprend le Type via l'initialisation, pas besoin de le mettre let sales: number = 123_456_789
+let course = 'Typescript'
+let is_published = true
 
-if (age < 50)
-  age += 10
-
-  console.log("age")
+let level // Si pas initialisé, alors Type any
